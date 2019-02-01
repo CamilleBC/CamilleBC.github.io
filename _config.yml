@@ -2,10 +2,9 @@
 # Site settings
 #
 remote_theme: LeakyAbstractions/pretty-docs
-url: https://leakyabstractions.github.io
-baseurl: /pretty-docs
-title: &site_title Pretty Docs
-description: &site_description Free Bootstrap theme for your project documentation
+url: https://camillebc.github.io
+title: &site_title CamilleBC Docs
+description: &site_description Various posts that document what I have learned along the way.
 branding:
   icon:
     name: icon_documents_alt
@@ -27,11 +26,10 @@ kramdown:
 # Owner
 #
 owner:
-  name: Guillermo Calvo
-  twitter: &site_owner_twitter gcalvo
+  name: Camille Bailalt
   copyright:
     notice: Lorem Ipsum
-    author: "[Guillermo Calvo](https://guillermo.in/)"
+    author: "[Camille Baillat](https://camillebc.github.io/)"
 
 
 #
