@@ -3,6 +3,7 @@
 #
 remote_theme: LeakyAbstractions/pretty-docs
 url: https://camillebc.github.io
+base_url: ""
 title: &site_title CamilleBC Docs
 description: &site_description Various posts that document what I have learned along the way.
 branding:
@@ -41,12 +42,6 @@ open_graph:
   description: *site_description
   locale: en_US
   image: /assets/images/thumb.png
-twitter_cards:
-  title: *site_title
-  description: *site_description
-  creator: *site_owner_twitter
-  card: summary_large_image
-  image: /assets/images/thumb.png
 share:
   facebook:
     class: fb-like
@@ -62,10 +57,6 @@ share:
     repo: LeakyAbstractions/pretty-docs
     position: right
     color: red
-
-
-# Google Analytics
-google_analytics: UA-61670496-5
 
 
 #
