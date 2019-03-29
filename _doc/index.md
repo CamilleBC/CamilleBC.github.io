@@ -12,7 +12,7 @@ navigation:
   - /showcase
   - /credits
   - /news
-  # - /community
+  - /community
   - /legal
 ---
 
