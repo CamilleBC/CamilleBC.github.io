@@ -12,19 +12,21 @@ navigation:
   - /showcase
   - /credits
   - /news
-  - /community
+  # - /community
   - /legal
 ---
 
 Welcome to my GitHub pages.
-I will try to document my learning process and stuff that I don'twant to loose here.
+I will try to document my learning process and stuff that I don't want to loose here.
 
 <div class="cta-container">
 
 [*&nbsp;*{: .fa .fa-cloud-download} Download Fusy Now][FUSY]{: .btn .btn-primary .btn-cta}
+[*&nbsp;*{: .fa .fa-cloud-download} Download Commune Now][FUSY]{: .btn .btn-primary .btn-cta}
 [*&nbsp;*{: .fa .fa-github} Check my GitHub repository][GHREPO]{: .btn .btn-green .btn-primary .btn-cta}
 
 </div>
 
 [FUSY]: https://github.com/CamilleBC/fusy
+[COMMUNE]: https://github.com/CamilleBC/commune
 [GHREPO]: https://github.com/CamilleBC/
