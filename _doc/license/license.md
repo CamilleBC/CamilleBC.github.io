@@ -30,7 +30,7 @@ SOFTWARE.
 
  <div class="author-profile text-center">
  
- [![](assets/images/demo/author-profile.png)](https://github.com/CamilleBC/){: .center-block}
+ [![](assets/images/author.jpg)](https://github.com/CamilleBC/){: .center-block}
 
  </div>
 
