@@ -29,7 +29,7 @@ kramdown:
 owner:
   name: Camille Bailalt
   copyright:
-    notice: Lorem Ipsum
+    notice: MIT License - © 2019 Camille Baillat
     author: "[Camille Baillat](https://camillebc.github.io/)"
 
 
@@ -43,18 +43,8 @@ open_graph:
   locale: en_US
   image: /assets/images/thumb.png
 share:
-  facebook:
-    class: fb-like
-    action: like
-    layout: button_count
-    show-faces: false
-    share: false
-  twitter:
-    via: *site_owner_twitter
-    text: &site_description
-    title: Tweet
   github:
-    repo: LeakyAbstractions/pretty-docs
+    repo: CamilleBC
     position: right
     color: red
 

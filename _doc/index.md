@@ -7,10 +7,6 @@ heading: Learnin is fun!
 navigation:
   - /start
   - /components
-  - /charts
-  - /faqs
-  - /showcase
-  - /credits
   - /news
   - /community
   - /legal
