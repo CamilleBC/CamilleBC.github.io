@@ -8,3 +8,4 @@ color: orange
 sections:
   - /credits/license
   - /credits/credits
+---

@@ -2,13 +2,13 @@
 title: Project's License
 ---
 
+Commune and Fusy are made by developer [Camille Baillat](https://github.com/CamilleBC/) for developers and is 100% **FREE**
+
 <div class="jumbotron text-center">
 
 # MIT License
 
 *Copyright (c) [2019] [Camille Baillat]*
-
-Commune and Fusy are made by developer [Camille Baillat](https://github.com/CamilleBC/) for developers and is 100% **FREE**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
