@@ -29,7 +29,7 @@ kramdown:
 owner:
   name: Camille Bailalt
   copyright:
-    notice: MIT License - © 2019 Camille Baillat
+    notice: "[MIT license](https://opensource.org/licenses/MIT)"
     author: "[Camille Baillat](https://camillebc.github.io/)"
 
 

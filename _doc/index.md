@@ -6,7 +6,7 @@ tagline: |
 heading: Learnin is fun!
 navigation:
   - /start
-  - /components
+  - /concepts
   - /news
   - /community
   - /legal
