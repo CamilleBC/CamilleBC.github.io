@@ -11,5 +11,7 @@ There are 3 main [architecture components]:
 - [Room](#room): Room is an a SQLite object mapping library. Use it to Avoid boilerplate code and easily convert SQLite table data to Java objects. Room provides compile time checks of SQLite statements and can return RxJava, Flowable and LiveData observables.
 
 ## LiveData
+
 ## ViewModel
+
 ## Room

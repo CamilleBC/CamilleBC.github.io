@@ -6,9 +6,6 @@ icon:
   name: icon_puzzle_alt
 color: pink
 sections:
-  - /concepts/repository_pattern
-  - /concepts/dependency_injection
-  - /concepts/app_modularization
   - /concepts/architecture_components
-  - /concepts/recyclerView
+  - /work-in-progress
 ---

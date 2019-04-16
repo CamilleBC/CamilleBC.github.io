@@ -1,7 +1,7 @@
 #
 # Site settings
 #
-remote_theme: LeakyAbstractions/pretty-docs
+remote_theme: CamilleBC/pretty-docs
 url: https://camillebc.github.io
 base_url: ""
 title: &site_title CamilleBC Docs
@@ -9,7 +9,7 @@ description: &site_description Various posts that document what I have learned a
 branding:
   icon:
     name: icon_documents_alt
-  highlight: Pretty
+  highlight: CamilleBC
   bold: Docs
 markdown: kramdown
 kramdown:
@@ -31,22 +31,6 @@ owner:
   copyright:
     notice: "[MIT license](https://opensource.org/licenses/MIT)"
     author: "[Camille Baillat](https://camillebc.github.io/)"
-
-
-#
-# Social
-#
-open_graph:
-  title: *site_title
-  site_name: *site_title
-  description: *site_description
-  locale: en_US
-  image: /assets/images/thumb.png
-share:
-  github:
-    repo: CamilleBC
-    position: right
-    color: red
 
 
 #
