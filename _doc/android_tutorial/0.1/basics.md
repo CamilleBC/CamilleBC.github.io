@@ -12,9 +12,8 @@ navigation:
   - /android_tutorial/0.1/room
 ---
 
-# Objectives
-
 <div class="jumbotron text-left">
+## Objectives
 
 You will need to create an app that can display and manage a list of dogs.
 
@@ -28,5 +27,5 @@ The _Dog_ class will need to have the following properties:
 
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4OTI0NTUxXX0=
+eyJoaXN0b3J5IjpbMTIwODEyMDU1OF19
 -->
