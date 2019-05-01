@@ -3,10 +3,10 @@ title: Walkthrough
 date: 2019-04-20
 sections:
   - 00 Empty Project (clone on Github)
-  - 0.1.1 Launch a fragment
-  - 0.1.2 Communicate between the fragments and the activities
-  - 0.1.3 Manipulate fragments
-  - 0.1.4 Send the data to fragments
+  - 011 Launch a fragment
+  - 012 Communicate between the fragments and the activities
+  - 013 Manipulate fragments
+  - 014 Send the data to fragments
 ---
 <details>
 
@@ -111,7 +111,8 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MzcxMDIwNyw1NjYzNTc2NDUsLTE0Mz
-QxMDAzNTUsLTIwNTUyOTEwMzcsLTEwNjk5NDUyMjMsLTE1NDkx
-MzEzMjIsLTE1MDk3ODc1MzQsLTg0ODYyNjkyOV19
+eyJoaXN0b3J5IjpbMTY3MTk3NjY1MSwxOTkzNzEwMjA3LDU2Nj
+M1NzY0NSwtMTQzNDEwMDM1NSwtMjA1NTI5MTAzNywtMTA2OTk0
+NTIyMywtMTU0OTEzMTMyMiwtMTUwOTc4NzUzNCwtODQ4NjI2OT
+I5XX0=
 -->
