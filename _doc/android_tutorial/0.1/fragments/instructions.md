@@ -1,6 +1,9 @@
 ---
 title: Instructions
 date: 2019-04-20
+sections:
+  - /android_tutorial/0.1/fragments/instructions
+  - /android_tutorial/0.1/fragments/walkthrough
 ---
 
 You will implements two fragments: one called *DogListFragment*, the other *DogEditorFragment*.
@@ -136,5 +139,5 @@ If a valid *Dog* is provided, return the user to the *DogListFragment* and updat
   [**Clone the solution**]()
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njc4NjAzMTVdfQ==
+eyJoaXN0b3J5IjpbMzI5MDc0NzU2XX0=
 -->
