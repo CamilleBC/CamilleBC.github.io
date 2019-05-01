@@ -56,8 +56,9 @@ supportFragmentManager.beginTransaction()         		// 2
 
  1. We first take care of the UI changes. We add a floating button to the [_fragment_dog_list.xml_]() layout, as well as a drawable **+** icon.
  2. To communicate between the fragment and the activity, we need to add:
-	1. A listener interface in the fragment. This is an abstract function, and its role is only t
-	2. The implementation of the interface: a callback in the activity  
+	1. A listener interface in the fragment. This is an abstract class, and its role is only to force the activity that implements the fragment to implement its members/methods. Add the following to the _DogListFragment_:
+	
+	3. The implementation of the interface: a callback in the activity  
 
  3. We need to attach the actual callback to the button's onClickListener:  
 	1. Attach the reference of the activity that implements the listener to the fragment  
@@ -67,5 +68,5 @@ supportFragmentManager.beginTransaction()         		// 2
 
 ### Step 4. Send the data from *DogEditorFragment*  to *DogListFragment*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDYxNDcyLC04NDg2MjY5MjldfQ==
+eyJoaXN0b3J5IjpbMjAwMzA0MzE1MCwtODQ4NjI2OTI5XX0=
 -->
