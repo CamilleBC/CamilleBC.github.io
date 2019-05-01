@@ -63,14 +63,15 @@ supportFragmentManager.beginTransaction()         		// 2
 		    fun onDogListAddClick()  
 	}
 	```
+	
 	2. The implementation of the interface: a callback in the activity. We nedd to declare that the activity will implement the _DogListFragment_ listener.
 		```kotlin
-			class MainActivity : 
-				DogListFragment.OnAddClickListener,  //activity implements the listener
-				AppCompatActivity() {
-			}
+		class MainActivity : 
+			DogListFragment.OnAddClickListener,  //activity implements the listener
+			AppCompatActivity() {
+	}
 	```
-	
+	Then we override the abstract function of the interface by the actual implementation:
 	```kotlin
 	override fun onDogListAddClick() {  
 	    val dogEditorFragment = DogEditorFragment()  
@@ -80,6 +81,7 @@ supportFragmentManager.beginTransaction()         		// 2
 	        .commit()  
 	}
 	```  
+	
  3. We need to attach the actual callback to the button's onClickListener:  
 	1. Attach the reference of the activity that implements the listener to the fragment  
 	2. Add the activity's callback to the button through [View.setOnClickListener]
@@ -90,7 +92,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODEzMjk2NiwtMjA1NTI5MTAzNywtMT
+eyJoaXN0b3J5IjpbLTQ5NjU5MDMyMywtMjA1NTI5MTAzNywtMT
 A2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUwOTc4NzUzNCwtODQ4
 NjI2OTI5XX0=
 -->
