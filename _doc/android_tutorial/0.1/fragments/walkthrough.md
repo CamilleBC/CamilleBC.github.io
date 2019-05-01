@@ -54,11 +54,11 @@ supportFragmentManager.beginTransaction() 			            // 2
 
 ### Step 2. Communicate between the *DogListFragment* and the *MainActivity*
 
-- We first take care of the UI changes. We add a floating button to the `fragment_dog_list.xml` layout.
+- We first take care of the UI changes. We add a floating button to the [`fragment_dog_list.xml`]() layout.
 
 ### Step 3. Add a *DogEditorFragment* and launch it from the *DogListFragment*
 
 ### Step 4. Send the data from *DogEditorFragment*  to *DogListFragment*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODYyNjkyOV19
+eyJoaXN0b3J5IjpbODMyNTE0ODUyLC04NDg2MjY5MjldfQ==
 -->
