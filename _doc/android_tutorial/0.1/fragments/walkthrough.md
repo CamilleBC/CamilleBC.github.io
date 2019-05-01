@@ -77,7 +77,7 @@ supportFragmentManager.beginTransaction()         		// 2
 		}
 		```  
 	
- 3. We need to attach the actual callback to the button's onClickListener. A _View_ element in A  
+ 3. We need to attach the actual callback to the button's onClickListener. A _View_ element in Android has a `setListener`  
 	1. Attach the reference of the activity that implements the listener to the fragment.  
 	2. Add the activity's callback to the button through [View.setOnClickListener]
 
@@ -87,7 +87,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDE2NzY3MCwtMTQzNDEwMDM1NSwtMj
+eyJoaXN0b3J5IjpbMTQ1OTY0MTAyMSwtMTQzNDEwMDM1NSwtMj
 A1NTI5MTAzNywtMTA2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUw
 OTc4NzUzNCwtODQ4NjI2OTI5XX0=
 -->
