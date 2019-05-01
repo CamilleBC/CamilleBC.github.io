@@ -18,7 +18,7 @@ sections:
 </summary>
 
 ### 0.0 Empty project solution
-{: #011-solution}
+{: #0.1.1-solution}
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/b7aedaebebab286bda00cb2d55df0be104125992)
 
 This is the starting step for our application.
@@ -118,9 +118,9 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjUwMzgwMiwyMTM3MTU5OTQxLDEyNT
-gyMjI3NTksLTY1MjAzNzEwNCwxNjcxOTc2NjUxLDE5OTM3MTAy
-MDcsNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC0yMDU1MjkxMDM3LC
-0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0xNTA5Nzg3NTM0LC04
-NDg2MjY5MjldfQ==
+eyJoaXN0b3J5IjpbMzIxNTc0ODY4LDIxMzcxNTk5NDEsMTI1OD
+IyMjc1OSwtNjUyMDM3MTA0LDE2NzE5NzY2NTEsMTk5MzcxMDIw
+Nyw1NjYzNTc2NDUsLTE0MzQxMDAzNTUsLTIwNTUyOTEwMzcsLT
+EwNjk5NDUyMjMsLTE1NDkxMzEzMjIsLTE1MDk3ODc1MzQsLTg0
+ODYyNjkyOV19
 -->
