@@ -2,14 +2,13 @@
 title: Walkthrough
 date: 2019-04-20
 sections:
-  - 00 Empty project solution
+  - test
   - 011 Launch a fragment solution
   - 012 Communicate between the fragments and the activities solution
   - 013 Manipulate fragments solution
   - 014 Send the data to fragments solution
 ---
 
- [011](#011)
 <details>
 
 <summary >
@@ -18,7 +17,7 @@ sections:
 </a>
 </summary>
 
-### 0.0 Empty project solution {%
+### 0.0 Empty project solution {: #test}
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/b7aedaebebab286bda00cb2d55df0be104125992)
 
 This is the starting step for our application.
@@ -40,8 +39,6 @@ override fun onCreate(savedInstanceState: Bundle?) {
 That's it. 
 
 ### 0.1.1 Launch a fragment solution
-
-## 0.1.1
  [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/a3117b27ba05fe1d359fcf3a7251f24a66294381)
 
 We could directly implement our layout in the _MainActivity_. The advantage of using a _Fragment_ instead of an _Activity_ is that we can reuse fragments in different activities if needed, or display multiple fragments on screen depending on the display size, orientation, etc.
@@ -118,10 +115,9 @@ supportFragmentManager.beginTransaction()         		// 2
 ### 0.1.4 Send the data to fragments
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/9ef782c9dca98ef6fcf3fc5d143b6bea1fd49718)
 
-### Test
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Nzk2MTI5NCwtNjUyMDM3MTA0LDE2Nz
+eyJoaXN0b3J5IjpbMTI1ODIyMjc1OSwtNjUyMDM3MTA0LDE2Nz
 E5NzY2NTEsMTk5MzcxMDIwNyw1NjYzNTc2NDUsLTE0MzQxMDAz
 NTUsLTIwNTUyOTEwMzcsLTEwNjk5NDUyMjMsLTE1NDkxMzEzMj
 IsLTE1MDk3ODc1MzQsLTg0ODYyNjkyOV19
