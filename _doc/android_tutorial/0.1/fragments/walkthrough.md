@@ -78,8 +78,10 @@ supportFragmentManager.beginTransaction()         		// 2
 		```  
 	
  3. We need to attach the actual callback to the button's onClickListener. 
-	1. At this stage, all that we do is attach, in the _DogListFragment_, a reference to the activity that implements the listener. 
+	1. At this stage, all that we do is attach, in the _DogListFragment_, a reference to the activity that implements the listener. We attach the reference in 
 	2. Add the activity's callback to the button through the [`View.OnClickListener`](https://developer.android.com/reference/android/view/View.OnClickListener) method. This method will call the implemented callback on a user's click on the _View_ element
+
+[Fragment.onCreateView](https://developer.android.com/reference/android/support/v4/app/Fragment.html#oncreateview).
 
 ### 0.1.3 - Manipulate fragments ([**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/6f7cbf3039c3a0a180f9bce948f4b9ba03f02cb2))
 
@@ -87,7 +89,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjk5NTIyMiwtMTQzNDEwMDM1NSwtMj
-A1NTI5MTAzNywtMTA2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUw
-OTc4NzUzNCwtODQ4NjI2OTI5XX0=
+eyJoaXN0b3J5IjpbLTEwNzM5Mjg0MzQsLTE0MzQxMDAzNTUsLT
+IwNTUyOTEwMzcsLTEwNjk5NDUyMjMsLTE1NDkxMzEzMjIsLTE1
+MDk3ODc1MzQsLTg0ODYyNjkyOV19
 -->
