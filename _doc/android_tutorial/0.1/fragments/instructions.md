@@ -140,7 +140,9 @@ If a valid *Dog* is provided, return the user to the *DogListFragment* and updat
   </details>
 
   [**Clone the solution**]()
+  
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTAxNTUyMywtODE0NzU5MTE4XX0=
+eyJoaXN0b3J5IjpbLTEzOTg2ODk2NDcsMjA5NTAxNTUyMywtOD
+E0NzU5MTE4XX0=
 -->
