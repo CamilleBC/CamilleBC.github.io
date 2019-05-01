@@ -59,3 +59,6 @@ supportFragmentManager.beginTransaction() 			            // 2
 ### Step 3. Add a *DogEditorFragment* and launch it from the *DogListFragment*
 
 ### Step 4. Send the data from *DogEditorFragment*  to *DogListFragment*
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTg0ODYyNjkyOV19
+-->
