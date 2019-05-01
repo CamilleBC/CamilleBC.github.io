@@ -2,7 +2,7 @@
 title: Walkthrough
 date: 2019-04-20
 sections:
-  - 00 Solution
+  - 00 - Solution
   - 011 - Solution
   - 012 - Solution
   - 013 Manipulate fragments solution
@@ -120,9 +120,9 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0MTc2NDg1LDIwNTMwODI1ODgsMjEzNz
-E1OTk0MSwxMjU4MjIyNzU5LC02NTIwMzcxMDQsMTY3MTk3NjY1
-MSwxOTkzNzEwMjA3LDU2NjM1NzY0NSwtMTQzNDEwMDM1NSwtMj
-A1NTI5MTAzNywtMTA2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUw
-OTc4NzUzNCwtODQ4NjI2OTI5XX0=
+eyJoaXN0b3J5IjpbLTIxMTEwOTc5OTIsMjA1MzA4MjU4OCwyMT
+M3MTU5OTQxLDEyNTgyMjI3NTksLTY1MjAzNzEwNCwxNjcxOTc2
+NjUxLDE5OTM3MTAyMDcsNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC
+0yMDU1MjkxMDM3LC0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0x
+NTA5Nzg3NTM0LC04NDg2MjY5MjldfQ==
 -->
