@@ -69,9 +69,9 @@ supportFragmentManager.beginTransaction()         		// 2
 		class MainActivity : 
 			DogListFragment.OnAddClickListener,  //activity implements the listener
 			AppCompatActivity() {
-	}
-	```
-	Then we override the abstract function of the interface by the actual implementation:
+		}
+		```
+		Then we override the abstract function of the interface by the actual implementation:
 	```kotlin
 	override fun onDogListAddClick() {  
 	    val dogEditorFragment = DogEditorFragment()  
@@ -92,7 +92,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjU5MDMyMywtMjA1NTI5MTAzNywtMT
-A2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUwOTc4NzUzNCwtODQ4
-NjI2OTI5XX0=
+eyJoaXN0b3J5IjpbLTE1Njg5MzY2MDMsLTIwNTUyOTEwMzcsLT
+EwNjk5NDUyMjMsLTE1NDkxMzEzMjIsLTE1MDk3ODc1MzQsLTg0
+ODYyNjkyOV19
 -->
