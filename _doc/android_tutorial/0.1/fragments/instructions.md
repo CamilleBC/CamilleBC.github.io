@@ -17,7 +17,7 @@ You should have a functioning [Android Studio 3.3](https://developer.android.com
 You can clone this [project](https://github.com/CamilleBC/android-kotlin-basics/tree/1dee2ad0bb9143cf2ef9eb81c39977aa59e75fb7).
 If you can build it, you're ready to go!
 
-### 0.1.1 - Launch a fragment
+### 011 Launch a fragment
 Edit the *MainActivity* to display a fragment called *DogListFragment* on application's launch.
 
 <details>
@@ -142,7 +142,7 @@ If a valid *Dog* is provided, return the user to the *DogListFragment* and updat
   [**Clone the solution**]()
 </details>
 
-[0.1.1 - Launch a fragment](#0.1.1-launch-a-fragment)
+[0.1.1 Launch a fragment](#011-launch-a-fragment)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3NDU0OTg3XX0=
+eyJoaXN0b3J5IjpbLTEyNzc4MzU2NzVdfQ==
 -->
