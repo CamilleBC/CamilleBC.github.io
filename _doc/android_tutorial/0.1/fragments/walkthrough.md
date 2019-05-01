@@ -41,6 +41,7 @@ That's it.
 
 ### 0.1.1 Launch a fragment solution
 {: #011-solution}
+
  [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/a3117b27ba05fe1d359fcf3a7251f24a66294381)
 
 We could directly implement our layout in the _MainActivity_. The advantage of using a _Fragment_ instead of an _Activity_ is that we can reuse fragments in different activities if needed, or display multiple fragments on screen depending on the display size, orientation, etc.
@@ -67,6 +68,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
 ### 0.1.2 Communicate between the fragments and the activities solution
 {: #012-solution}
+
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/15d54a84d8d1a1c4d93657e42ef0800127a43c23)
  1. We first take care of the UI changes. We add a floating button to the [_fragment_dog_list.xml_]() layout, as well as a drawable **+** icon.
  2. To communicate between the fragment and the activity, we need to add:
@@ -123,9 +125,9 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDI5Mzg3OCwyMDUzMDgyNTg4LDIxMz
-cxNTk5NDEsMTI1ODIyMjc1OSwtNjUyMDM3MTA0LDE2NzE5NzY2
-NTEsMTk5MzcxMDIwNyw1NjYzNTc2NDUsLTE0MzQxMDAzNTUsLT
-IwNTUyOTEwMzcsLTEwNjk5NDUyMjMsLTE1NDkxMzEzMjIsLTE1
-MDk3ODc1MzQsLTg0ODYyNjkyOV19
+eyJoaXN0b3J5IjpbLTE2ODAxMDg4MTgsMjA1MzA4MjU4OCwyMT
+M3MTU5OTQxLDEyNTgyMjI3NTksLTY1MjAzNzEwNCwxNjcxOTc2
+NjUxLDE5OTM3MTAyMDcsNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC
+0yMDU1MjkxMDM3LC0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0x
+NTA5Nzg3NTM0LC04NDg2MjY5MjldfQ==
 -->
