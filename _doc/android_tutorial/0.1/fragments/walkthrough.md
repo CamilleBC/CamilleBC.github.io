@@ -19,6 +19,7 @@ sections:
 
 ### 0.0 Empty project solution
 {: #00-solution}
+
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/b7aedaebebab286bda00cb2d55df0be104125992)
 
 This is the starting step for our application.
@@ -115,19 +116,21 @@ supportFragmentManager.beginTransaction()         		// 2
 
 ### 0.1.3 Manipulate fragments solution
 {: #013-solution}
+
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/6f7cbf3039c3a0a180f9bce948f4b9ba03f02cb2)
 
 [Fragment.onCreateView](https://developer.android.com/reference/android/support/v4/app/Fragment.html#oncreateview).
 
 ### 0.1.4 Send the data to fragments
 {: #014-solution}
+
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/9ef782c9dca98ef6fcf3fc5d143b6bea1fd49718)
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODAxMDg4MTgsMjA1MzA4MjU4OCwyMT
-M3MTU5OTQxLDEyNTgyMjI3NTksLTY1MjAzNzEwNCwxNjcxOTc2
-NjUxLDE5OTM3MTAyMDcsNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC
-0yMDU1MjkxMDM3LC0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0x
-NTA5Nzg3NTM0LC04NDg2MjY5MjldfQ==
+eyJoaXN0b3J5IjpbNjI5OTI0MTI0LDIwNTMwODI1ODgsMjEzNz
+E1OTk0MSwxMjU4MjIyNzU5LC02NTIwMzcxMDQsMTY3MTk3NjY1
+MSwxOTkzNzEwMjA3LDU2NjM1NzY0NSwtMTQzNDEwMDM1NSwtMj
+A1NTI5MTAzNywtMTA2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUw
+OTc4NzUzNCwtODQ4NjI2OTI5XX0=
 -->
