@@ -54,22 +54,18 @@ supportFragmentManager.beginTransaction() 			            // 2
 
 ### Step 2. Communicate between the *DogListFragment* and the *MainActivity*
 
-- We first take care of the UI changes. We add a floating button to the [_fragment_dog_list.xml_]() layout.
-```xml
-<com.google.android.material.floatingactionbutton.FloatingActionButton  
-  android:id="@+id/button_dogList_add"  
-  android:layout_margin="@dimen/huge_margin"  
-  android:layout_width="wrap_content"  
-  android:layout_height="wrap_content"  
-  android:clickable="true"  
-  android:focusable="true"  
-  android:src="@drawable/ic_add_white_24dp"  
-  app:layout_constraintBottom_toBottomOf="parent"  
-  app:layout_constraintEnd_toEndOf="parent" />
-```
+ - List item
+ - We first take care of the UI changes. We add a floating button to the [_fragment_dog_list.xml_]() layout, as well as a drawable **+** icon.
+1- To communicate between the fragment and the activity, we need to add:
+a- A listener interface in the fragment  
+b- The implementation of the interface: a callback in the activity  
+
+2- We need to attach the actual callback to the button's onClickListener:  
+a- Attach the reference of the activity that implements the listener to the fragment  
+b- Add the activity's callback to the button through [View.setOnClickListener]
 ### Step 3. Add a *DogEditorFragment* and launch it from the *DogListFragment*
 
 ### Step 4. Send the data from *DogEditorFragment*  to *DogListFragment*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDIzMDYwMTMsLTg0ODYyNjkyOV19
+eyJoaXN0b3J5IjpbMTE5NTA0NDQzLC04NDg2MjY5MjldfQ==
 -->
