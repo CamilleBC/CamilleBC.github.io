@@ -7,6 +7,7 @@ sections:
   - 012 Communicate between the fragments and the activities solution
   - 013 Manipulate fragments solution
   - 014 Send the data to fragments solution
+  - [Test](#test)
 ---
 <details>
 
@@ -115,10 +116,11 @@ supportFragmentManager.beginTransaction()         		// 2
 ### 0.1.4 Send the data to fragments
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/9ef782c9dca98ef6fcf3fc5d143b6bea1fd49718)
 
+### Test
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTMyOTkxNywxNjcxOTc2NjUxLDE5OT
-M3MTAyMDcsNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC0yMDU1Mjkx
-MDM3LC0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0xNTA5Nzg3NT
-M0LC04NDg2MjY5MjldfQ==
+eyJoaXN0b3J5IjpbNDg3NTI4MTY1LDE2NzE5NzY2NTEsMTk5Mz
+cxMDIwNyw1NjYzNTc2NDUsLTE0MzQxMDAzNTUsLTIwNTUyOTEw
+MzcsLTEwNjk5NDUyMjMsLTE1NDkxMzEzMjIsLTE1MDk3ODc1Mz
+QsLTg0ODYyNjkyOV19
 -->
