@@ -9,6 +9,7 @@ sections:
   - 014 Send the data to fragments solution
 ---
 
+ [011](#011-launch)
 <details>
 
 <summary >
@@ -40,6 +41,7 @@ That's it.
 
 ### 0.1.1 Launch a fragment solution
 
+## 0.1 Launch
  [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/a3117b27ba05fe1d359fcf3a7251f24a66294381)
 
 We could directly implement our layout in the _MainActivity_. The advantage of using a _Fragment_ instead of an _Activity_ is that we can reuse fragments in different activities if needed, or display multiple fragments on screen depending on the display size, orientation, etc.
@@ -119,8 +121,8 @@ supportFragmentManager.beginTransaction()         		// 2
 ### Test
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjAzNzEwNCwxNjcxOTc2NjUxLDE5OT
-M3MTAyMDcsNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC0yMDU1Mjkx
-MDM3LC0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0xNTA5Nzg3NT
-M0LC04NDg2MjY5MjldfQ==
+eyJoaXN0b3J5IjpbMTE0MzU5Nzg5NiwtNjUyMDM3MTA0LDE2Nz
+E5NzY2NTEsMTk5MzcxMDIwNyw1NjYzNTc2NDUsLTE0MzQxMDAz
+NTUsLTIwNTUyOTEwMzcsLTEwNjk5NDUyMjMsLTE1NDkxMzEzMj
+IsLTE1MDk3ODc1MzQsLTg0ODYyNjkyOV19
 -->
