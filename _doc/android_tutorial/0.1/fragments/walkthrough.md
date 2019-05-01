@@ -73,8 +73,8 @@ supportFragmentManager.beginTransaction()         		// 2
 
 ### 0.1.4 - Send the data to fragments ([**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/9ef782c9dca98ef6fcf3fc5d143b6bea1fd49718))
 
-<details>
+</details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTUyMDQ1MDIsLTEwNjk5NDUyMjMsLT
+eyJoaXN0b3J5IjpbLTIwNTUyOTEwMzcsLTEwNjk5NDUyMjMsLT
 E1NDkxMzEzMjIsLTE1MDk3ODc1MzQsLTg0ODYyNjkyOV19
 -->
