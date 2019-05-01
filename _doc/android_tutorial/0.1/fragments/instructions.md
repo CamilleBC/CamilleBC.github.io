@@ -2,7 +2,7 @@
 title: Instructions
 date: 2019-04-20
 sections:
-  - Prerequisites
+  - 00 Prerequisites
   - 011 Launch a fragment
   - 012 Communicate between the fragments and the activities
   - 013 Manipulate fragments
@@ -12,7 +12,7 @@ sections:
 You will implements two fragments: one called *DogListFragment*, the other *DogEditorFragment*.
 You will need to have two screens, one to display the list of *Dog* items, the other to edit or add a *Dog* item.
 
-#### Prerequisites
+### 00 Prerequisites
 You should have a functioning [Android Studio 3.3](https://developer.android.com/studio) install.
 You can clone this [project](https://github.com/CamilleBC/android-kotlin-basics/tree/1dee2ad0bb9143cf2ef9eb81c39977aa59e75fb7).
 If you can build it, you're ready to go!
@@ -143,6 +143,6 @@ If a valid *Dog* is provided, return the user to the *DogListFragment* and updat
   
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTg2ODk2NDcsMjA5NTAxNTUyMywtOD
-E0NzU5MTE4XX0=
+eyJoaXN0b3J5IjpbLTE5MzQ5MTU3MTYsLTEzOTg2ODk2NDcsMj
+A5NTAxNTUyMywtODE0NzU5MTE4XX0=
 -->
