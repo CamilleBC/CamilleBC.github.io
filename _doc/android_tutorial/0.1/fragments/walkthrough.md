@@ -58,29 +58,28 @@ supportFragmentManager.beginTransaction()         		// 2
  1. We first take care of the UI changes. We add a floating button to the [_fragment_dog_list.xml_]() layout, as well as a drawable **+** icon.
  2. To communicate between the fragment and the activity, we need to add:
 	1. A listener [**interface**](https://kotlinlang.org/docs/reference/interfaces.html#interfaces) in the fragment. This is an **abstract** class, and its role is only to force the activity that implements the fragment to implement its members/methods. Add the following to the _DogListFragment_:
-	```kotlin
-	interface OnAddClickListener {  
-		    fun onDogListAddClick()  
-	}
-	```
-	
-	2. The implementation of the interface: a callback in the activity. We nedd to declare that the activity will implement the _DogListFragment_ listener.
+		```kotlin
+		interface OnAddClickListener {  
+			    fun onDogListAddClick()  
+		}
+		```
+	2. The implementation of the interface: a callback in the activity. We need to declare that the activity will implement the _DogListFragment_ listener:
 		```kotlin
 		class MainActivity : 
 			DogListFragment.OnAddClickListener,  //activity implements the listener
 			AppCompatActivity() {
 		}
 		```
-		Then we override the abstract function of the interface by the actual implementation:
-	```kotlin
-	override fun onDogListAddClick() {  
-	    val dogEditorFragment = DogEditorFragment()  
-	    supportFragmentManager.beginTransaction()  
-		.replace(R.id.constraintLayout_main_fragmentContainer, dogEditorFragment)  
-		.addToBackStack(null)  
-	        .commit()  
-	}
-	```  
+		Then we override the abstract function of the interface by the actual implementation in _MainActivity_:
+		```kotlin
+		override fun onDogListAddClick() {  
+		    val dogEditorFragment = DogEditorFragment()  
+		    supportFragmentManager.beginTransaction()  
+			.replace(R.id.constraintLayout_main_fragmentContainer, dogEditorFragment)  
+			.addToBackStack(null)  
+		        .commit()  
+		}
+		```  
 	
  3. We need to attach the actual callback to the button's onClickListener:  
 	1. Attach the reference of the activity that implements the listener to the fragment  
@@ -92,7 +91,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg5MzY2MDMsLTIwNTUyOTEwMzcsLT
+eyJoaXN0b3J5IjpbLTE0MzQxMDAzNTUsLTIwNTUyOTEwMzcsLT
 EwNjk5NDUyMjMsLTE1NDkxMzEzMjIsLTE1MDk3ODc1MzQsLTg0
 ODYyNjkyOV19
 -->
