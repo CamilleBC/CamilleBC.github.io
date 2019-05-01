@@ -2,11 +2,11 @@
 title: Walkthrough
 date: 2019-04-20
 sections:
-  - 00 - Solution
-  - 011 - Solution
-  - 012 - Solution
-  - 013 Manipulate fragments solution
-  - 014 Send the data to fragments solution
+  - 00 Solution
+  - 011 Solution
+  - 012 Solution
+  - 013 Solution
+  - 014 Solution
 ---
 
 <details>
@@ -112,17 +112,20 @@ supportFragmentManager.beginTransaction()         		// 2
 		```
 
 ### 0.1.3 Manipulate fragments solution
+{: #013-solution}
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/6f7cbf3039c3a0a180f9bce948f4b9ba03f02cb2)
 
 [Fragment.onCreateView](https://developer.android.com/reference/android/support/v4/app/Fragment.html#oncreateview).
+
 ### 0.1.4 Send the data to fragments
+{: #014-solution}
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/9ef782c9dca98ef6fcf3fc5d143b6bea1fd49718)
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTEwOTc5OTIsMjA1MzA4MjU4OCwyMT
-M3MTU5OTQxLDEyNTgyMjI3NTksLTY1MjAzNzEwNCwxNjcxOTc2
-NjUxLDE5OTM3MTAyMDcsNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC
-0yMDU1MjkxMDM3LC0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0x
-NTA5Nzg3NTM0LC04NDg2MjY5MjldfQ==
+eyJoaXN0b3J5IjpbLTc0NDI5Mzg3OCwyMDUzMDgyNTg4LDIxMz
+cxNTk5NDEsMTI1ODIyMjc1OSwtNjUyMDM3MTA0LDE2NzE5NzY2
+NTEsMTk5MzcxMDIwNyw1NjYzNTc2NDUsLTE0MzQxMDAzNTUsLT
+IwNTUyOTEwMzcsLTEwNjk5NDUyMjMsLTE1NDkxMzEzMjIsLTE1
+MDk3ODc1MzQsLTg0ODYyNjkyOV19
 -->
