@@ -56,7 +56,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
  1. We first take care of the UI changes. We add a floating button to the [_fragment_dog_list.xml_]() layout, as well as a drawable **+** icon.
  2. To communicate between the fragment and the activity, we need to add:
-	1. A listener interface in the fragment. This is an abstract class, and its role is only to force the activity that implements the fragment to implement its members/methods. Add the following to the _DogListFragment_:
+	1. A listener [**interface**](https://kotlinlang.org/docs/reference/interfaces.html#interfaces) in the fragment. This is an **abstract** class, and its role is only to force the activity that implements the fragment to implement its members/methods. Add the following to the _DogListFragment_:
 	```kotlin
 	interface OnAddClickListener {  
 		    fun onDogListAddClick()  
@@ -72,5 +72,6 @@ supportFragmentManager.beginTransaction()         		// 2
 
 ### Step 4. Send the data from *DogEditorFragment*  to *DogListFragment*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDk3ODc1MzQsLTg0ODYyNjkyOV19
+eyJoaXN0b3J5IjpbLTE1NDkxMzEzMjIsLTE1MDk3ODc1MzQsLT
+g0ODYyNjkyOV19
 -->
