@@ -2,8 +2,10 @@
 title: Instructions
 date: 2019-04-20
 sections:
-  - /android_tutorial/0.1/fragments/instructions
-  - /android_tutorial/0.1/fragments/walkthrough
+  - Prerequisites
+  - 0.1.1 - Launch a fragment
+  - 0.1.2 - Communicate between the fragments and the activities
+  - 
 ---
 
 You will implements two fragments: one called *DogListFragment*, the other *DogEditorFragment*.
@@ -14,7 +16,7 @@ You should have a functioning [Android Studio 3.3](https://developer.android.com
 You can clone this [project](https://github.com/CamilleBC/android-kotlin-basics/tree/1dee2ad0bb9143cf2ef9eb81c39977aa59e75fb7).
 If you can build it, you're ready to go!
 
-### 0.1.1 - Launch a *Fragment* from an *Activity*
+### 0.1.1 - Launch a fragment
 Edit the *MainActivity* to display a fragment called *DogListFragment* on application's launch.
 
 <details>
@@ -43,7 +45,7 @@ Edit the *MainActivity* to display a fragment called *DogListFragment* on applic
 
 </details>
 
-### 0.1.2 - Communicate between the *DogListFragment* and the *MainActivity*
+### 0.1.2 - Communicate between the fragments and the activities
 Add a [*FloatingActionButton*](https://developer.android.com/guide/topics/ui/floating-action-button) to the *DogListFragment*, and use it's *OnClickListener* to display a *Toast* on the *MainActivity*.
 You will need to learn about Kotlin's [interfaces](https://kotlinlang.org/docs/reference/interfaces.html#interfaces) to create a listener in the *DogListFragment*, and implement it's callback in the *MainActivity*.
 
@@ -73,7 +75,7 @@ You will need to learn about Kotlin's [interfaces](https://kotlinlang.org/docs/r
 
 </details>
 
-### 0.1.3 - Add a *DogEditorFragment* and launch it from the *DogListFragment*
+### 0.1.3 - Launch it from the *DogListFragment*
 On the *FloatingActionButton* click, replace the existing *DogListFragment* by a new fragment called *DogEditorFragment*.
 
 The *DogListFragment* should provide:
@@ -139,5 +141,5 @@ If a valid *Dog* is provided, return the user to the *DogListFragment* and updat
   [**Clone the solution**]()
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5MDc0NzU2XX0=
+eyJoaXN0b3J5IjpbLTE1MjU1Nzk4ODFdfQ==
 -->
