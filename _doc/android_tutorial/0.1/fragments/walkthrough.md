@@ -2,8 +2,13 @@
 title: Walkthrough
 date: 2019-04-20
 ---
+<details>
 
-# *&nbsp;*{: .fa .fa-tools} Work in progress *&nbsp;*{: .fa .fa-tools}
+<summary >
+<a class=".btn .btn-primary">
+  # *&nbsp;*{: .fa .fa-question-circle} Show walkthrough
+</a>
+</summary>
 
 ### Step 0. Initial state
 
@@ -71,7 +76,9 @@ supportFragmentManager.beginTransaction()         		// 2
 ### Step 3. Add a *DogEditorFragment* and launch it from the *DogListFragment*
 
 ### Step 4. Send the data from *DogEditorFragment*  to *DogListFragment*
+
+<details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDkxMzEzMjIsLTE1MDk3ODc1MzQsLT
-g0ODYyNjkyOV19
+eyJoaXN0b3J5IjpbLTQ5ODA3MzcxNCwtMTU0OTEzMTMyMiwtMT
+UwOTc4NzUzNCwtODQ4NjI2OTI5XX0=
 -->
