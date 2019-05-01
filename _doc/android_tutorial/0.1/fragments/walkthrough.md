@@ -77,7 +77,7 @@ supportFragmentManager.beginTransaction()         		// 2
 		}
 		```  
 	
- 3. We need to attach the actual callback to the button's onClickListener. 
+ 3. We need to attach the actual callback to the button's [onClickListener](https://developer.android.com/reference/android/view/View.OnClickListener). 
 	1. At this stage, all that we do is attach, in the _DogListFragment_, a reference to the activity that implements the listener. We attach the reference in [Fragment.onAttach](https://developer.android.com/reference/android/support/v4/app/Fragment.html#onattach_1) where we check if the context implements the listener. We cannot yet attach the actual callback, as the parent activity can be referenced, but it may not yet be fully functional. Our callback here relies on the `Toast` function, which requires the activity to be fully functional.
 		```kotlin
 		override fun onAttach(context: Context) {  
@@ -98,15 +98,14 @@ supportFragmentManager.beginTransaction()         		// 2
 		 }}
 		```
 
-[Fragment.onCreateView](https://developer.android.com/reference/android/support/v4/app/Fragment.html#oncreateview).
-
 ### 0.1.3 - Manipulate fragments ([**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/6f7cbf3039c3a0a180f9bce948f4b9ba03f02cb2))
 
+[Fragment.onCreateView](https://developer.android.com/reference/android/support/v4/app/Fragment.html#oncreateview).
 ### 0.1.4 - Send the data to fragments ([**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/9ef782c9dca98ef6fcf3fc5d143b6bea1fd49718))
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDc3OTc0OCwtMTQzNDEwMDM1NSwtMj
-A1NTI5MTAzNywtMTA2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUw
-OTc4NzUzNCwtODQ4NjI2OTI5XX0=
+eyJoaXN0b3J5IjpbNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC0yMD
+U1MjkxMDM3LC0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0xNTA5
+Nzg3NTM0LC04NDg2MjY5MjldfQ==
 -->
