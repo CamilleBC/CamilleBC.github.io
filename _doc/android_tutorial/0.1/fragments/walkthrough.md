@@ -29,7 +29,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 That's it. 
 
-[Clone this step](https://github.com/CamilleBC/android-kotlin-basics/blob/3ceee216f819093a2220657401855de1202a3251/app/src/main/java/me/camillebc/basics/view/MainActivity.kt)
+[Clone this step](https://github.com/CamilleBC/android-kotlin-basics/tree/b7aedaebebab286bda00cb2d55df0be104125992)
 
 ### 0.1.1 - Launch a fragment
 We could directly implement our layout in the _MainActivity_. The advantage of using a _Fragment_ instead of an _Activity_ is that we can reuse fragments in different activities if needed, or display multiple fragments on screen depending on the display size, orientation, etc.
@@ -69,12 +69,14 @@ supportFragmentManager.beginTransaction()         		// 2
 	1. Attach the reference of the activity that implements the listener to the fragment  
 	2. Add the activity's callback to the button through [View.setOnClickListener]
 
+[Clone this step](https://github.com/CamilleBC/android-kotlin-basics/tree/15d54a84d8d1a1c4d93657e42ef0800127a43c23)
+
 ### 0.1.3 - Manipulate fragments
 
 ### 0.1.4 - Send the data to fragments
 
 <details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjk5NDUyMjMsLTE1NDkxMzEzMjIsLT
-E1MDk3ODc1MzQsLTg0ODYyNjkyOV19
+eyJoaXN0b3J5IjpbMTczMDIwNTkwNywtMTA2OTk0NTIyMywtMT
+U0OTEzMTMyMiwtMTUwOTc4NzUzNCwtODQ4NjI2OTI5XX0=
 -->
