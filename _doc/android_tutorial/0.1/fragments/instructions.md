@@ -2,22 +2,26 @@
 title: Instructions
 date: 2019-04-20
 sections:
-  - 00 Prerequisites
-  - 011 Launch a fragment
-  - 012 Communicate between the fragments and the activities
-  - 013 Manipulate fragments
-  - 014 Send the data to fragments
+  - 00
+  - 011
+  - 012
+  - 013
+  - 014
 ---
 
 You will implements two fragments: one called *DogListFragment*, the other *DogEditorFragment*.
 You will need to have two screens, one to display the list of *Dog* items, the other to edit or add a *Dog* item.
 
 ### 00 Prerequisites
+{: #00}
+
 You should have a functioning [Android Studio 3.3](https://developer.android.com/studio) install.
 You can clone this [project](https://github.com/CamilleBC/android-kotlin-basics/tree/1dee2ad0bb9143cf2ef9eb81c39977aa59e75fb7).
 If you can build it, you're ready to go!
 
 ### 0.1.1 Launch a fragment
+{: #011}
+
 Edit the *MainActivity* to display a fragment called *DogListFragment* on application's launch.
 
 <details>
@@ -47,6 +51,8 @@ Edit the *MainActivity* to display a fragment called *DogListFragment* on applic
 </details>
 
 ### 0.1.2 Communicate between the fragments and the activities
+{: #012}
+
 Add a [*FloatingActionButton*](https://developer.android.com/guide/topics/ui/floating-action-button) to the *DogListFragment*, and use it's *OnClickListener* to display a *Toast* on the *MainActivity*.
 You will need to learn about Kotlin's [interfaces](https://kotlinlang.org/docs/reference/interfaces.html#interfaces) to create a listener in the *DogListFragment*, and implement it's callback in the *MainActivity*.
 
@@ -77,6 +83,8 @@ You will need to learn about Kotlin's [interfaces](https://kotlinlang.org/docs/r
 </details>
 
 ### 0.1.3 Manipulate fragments
+{: #013}
+
 On the *FloatingActionButton* click, replace the existing *DogListFragment* by a new fragment called *DogEditorFragment*.
 
 The *DogListFragment* should provide:
@@ -113,6 +121,8 @@ The *DogListFragment* should provide:
 </details>
 
 ### 0.1.4 Send the data to fragments
+{: #014}
+
 Do not use *ViewModel* and *LiveData* at first. Try to implement a way to pass data through the callbacks without it. 
 If a **mandatory** field is left empty (*name* or *breed*), do **not** add it to the data. Stay on the *DogListEditor* and warn the user.
 If a valid *Dog* is provided, return the user to the *DogListFragment* and update the displayed list.
@@ -143,6 +153,6 @@ If a valid *Dog* is provided, return the user to the *DogListFragment* and updat
   
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ5MTU3MTYsLTEzOTg2ODk2NDcsMj
+eyJoaXN0b3J5IjpbLTIwMDM2MjQ4NjQsLTEzOTg2ODk2NDcsMj
 A5NTAxNTUyMywtODE0NzU5MTE4XX0=
 -->
