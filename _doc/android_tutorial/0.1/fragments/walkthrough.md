@@ -73,11 +73,7 @@ supportFragmentManager.beginTransaction()         		// 2
 		Then we override the abstract function of the interface by the actual implementation in _MainActivity_:
 		```kotlin
 		override fun onDogListAddClick() {  
-		    val dogEditorFragment = DogEditorFragment()  
-		    supportFragmentManager.beginTransaction()  
-			.replace(R.id.constraintLayout_main_fragmentContainer, dogEditorFragment)  
-			.addToBackStack(null)  
-		        .commit()  
+			toast("Button clicked.")
 		}
 		```  
 	
@@ -91,7 +87,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQxMDAzNTUsLTIwNTUyOTEwMzcsLT
-EwNjk5NDUyMjMsLTE1NDkxMzEzMjIsLTE1MDk3ODc1MzQsLTg0
-ODYyNjkyOV19
+eyJoaXN0b3J5IjpbMTQ4NTIwMDQ2MCwtMTQzNDEwMDM1NSwtMj
+A1NTI5MTAzNywtMTA2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUw
+OTc4NzUzNCwtODQ4NjI2OTI5XX0=
 -->
