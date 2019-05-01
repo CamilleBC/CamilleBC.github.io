@@ -54,8 +54,7 @@ supportFragmentManager.beginTransaction()         		// 2
    .commit()		                        		// 4
 ```
 
-### 0.1.2 - Communicate between the fragments and the activities
-[**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/15d54a84d8d1a1c4d93657e42ef0800127a43c23)
+### 0.1.2 - Communicate between the fragments and the activities ([**clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/15d54a84d8d1a1c4d93657e42ef0800127a43c23))
  1. We first take care of the UI changes. We add a floating button to the [_fragment_dog_list.xml_]() layout, as well as a drawable **+** icon.
  2. To communicate between the fragment and the activity, we need to add:
 	1. A listener [**interface**](https://kotlinlang.org/docs/reference/interfaces.html#interfaces) in the fragment. This is an **abstract** class, and its role is only to force the activity that implements the fragment to implement its members/methods. Add the following to the _DogListFragment_:
@@ -70,14 +69,12 @@ supportFragmentManager.beginTransaction()         		// 2
 	1. Attach the reference of the activity that implements the listener to the fragment  
 	2. Add the activity's callback to the button through [View.setOnClickListener]
 
-### 0.1.3 - Manipulate fragments
-[**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/6f7cbf3039c3a0a180f9bce948f4b9ba03f02cb2)
+### 0.1.3 - Manipulate fragments ([**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/6f7cbf3039c3a0a180f9bce948f4b9ba03f02cb2))
 
-### 0.1.4 - Send the data to fragments
-[**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/9ef782c9dca98ef6fcf3fc5d143b6bea1fd49718)
+### 0.1.4 - Send the data to fragments ([**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/9ef782c9dca98ef6fcf3fc5d143b6bea1fd49718))
 
 <details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzIxMDQ0NywtMTA2OTk0NTIyMywtMT
-U0OTEzMTMyMiwtMTUwOTc4NzUzNCwtODQ4NjI2OTI5XX0=
+eyJoaXN0b3J5IjpbLTE1OTUyMDQ1MDIsLTEwNjk5NDUyMjMsLT
+E1NDkxMzEzMjIsLTE1MDk3ODc1MzQsLTg0ODYyNjkyOV19
 -->
