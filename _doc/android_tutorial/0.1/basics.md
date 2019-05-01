@@ -18,15 +18,15 @@ navigation:
 
 You will need to create an app that can display and manage a list of dogs.
 
-You will need to have two screens, one to display the list of `Dog` items, the other to edit or add a `Dog` item.
+You will need to have two screens, one to display the list of _Dog_ items, the other to edit or add a _Dog_ item.
 
-The `Dog` class will need to have the following properties:
+The _Dog_ class will need to have the following properties:
 
- - `name`: a string for the dog's name
- - `breed`: a string for the dog's breed
- - `subBreed`: an **optional** sub-breed for the dog
+ - _name_: a string for the dog's name => **mandatory field**
+ - _breed_: a string for the dog's breed => **mandatory field**
+ - _subBreed_: a string for the dog's sub-breed => **optional field**
 
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4ODA0ODg5XX0=
+eyJoaXN0b3J5IjpbNDg4OTI0NTUxXX0=
 -->
