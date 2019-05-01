@@ -2,7 +2,7 @@
 title: Walkthrough
 date: 2019-04-20
 sections:
-  - test
+  - 0.1.1 Solution
   - 011 Launch a fragment solution
   - 012 Communicate between the fragments and the activities solution
   - 013 Manipulate fragments solution
@@ -18,7 +18,7 @@ sections:
 </summary>
 
 ### 0.0 Empty project solution
-{: #test}
+{: #011-solution}
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/b7aedaebebab286bda00cb2d55df0be104125992)
 
 This is the starting step for our application.
@@ -118,9 +118,9 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzE1OTk0MSwxMjU4MjIyNzU5LC02NT
-IwMzcxMDQsMTY3MTk3NjY1MSwxOTkzNzEwMjA3LDU2NjM1NzY0
-NSwtMTQzNDEwMDM1NSwtMjA1NTI5MTAzNywtMTA2OTk0NTIyMy
-wtMTU0OTEzMTMyMiwtMTUwOTc4NzUzNCwtODQ4NjI2OTI5XX0=
-
+eyJoaXN0b3J5IjpbMTYyNjUwMzgwMiwyMTM3MTU5OTQxLDEyNT
+gyMjI3NTksLTY1MjAzNzEwNCwxNjcxOTc2NjUxLDE5OTM3MTAy
+MDcsNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC0yMDU1MjkxMDM3LC
+0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0xNTA5Nzg3NTM0LC04
+NDg2MjY5MjldfQ==
 -->
