@@ -11,7 +11,7 @@ date: 2019-04-20
 </summary>
 
 ### 0.0 - Empty project
-[**Clone this step**](https://github.com/CamilleBC/android-kotlin-basics/tree/b7aedaebebab286bda00cb2d55df0be104125992)
+[**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/b7aedaebebab286bda00cb2d55df0be104125992)
 
 This is the starting step for our application.
 We simply have a _MainActivity_ class that extends _AppCompatActivity_ (I'm using this for compatibility reasons on older phones, use whatever you need for your project).
@@ -31,7 +31,8 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 That's it. 
 
-### 0.1.1 - Launch a fragment - [**Clone this step**](https://github.com/CamilleBC/android-kotlin-basics/tree/a3117b27ba05fe1d359fcf3a7251f24a66294381)
+### 0.1.1 - Launch a fragment 
+[**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/a3117b27ba05fe1d359fcf3a7251f24a66294381)
 
 We could directly implement our layout in the _MainActivity_. The advantage of using a _Fragment_ instead of an _Activity_ is that we can reuse fragments in different activities if needed, or display multiple fragments on screen depending on the display size, orientation, etc.
 
@@ -56,6 +57,7 @@ supportFragmentManager.beginTransaction()         		// 2
 ```
 
 ### 0.1.2 - Communicate between the fragments and the activities
+[**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/15d54a84d8d1a1c4d93657e42ef0800127a43c23)
  1. We first take care of the UI changes. We add a floating button to the [_fragment_dog_list.xml_]() layout, as well as a drawable **+** icon.
  2. To communicate between the fragment and the activity, we need to add:
 	1. A listener [**interface**](https://kotlinlang.org/docs/reference/interfaces.html#interfaces) in the fragment. This is an **abstract** class, and its role is only to force the activity that implements the fragment to implement its members/methods. Add the following to the _DogListFragment_:
@@ -70,14 +72,14 @@ supportFragmentManager.beginTransaction()         		// 2
 	1. Attach the reference of the activity that implements the listener to the fragment  
 	2. Add the activity's callback to the button through [View.setOnClickListener]
 
-[Clone this step](https://github.com/CamilleBC/android-kotlin-basics/tree/15d54a84d8d1a1c4d93657e42ef0800127a43c23)
-
 ### 0.1.3 - Manipulate fragments
+[**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/6f7cbf3039c3a0a180f9bce948f4b9ba03f02cb2)
 
 ### 0.1.4 - Send the data to fragments
+[**Clone on Github**](
 
 <details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA4NjA1Njk3LC0xMDY5OTQ1MjIzLC0xNT
-Q5MTMxMzIyLC0xNTA5Nzg3NTM0LC04NDg2MjY5MjldfQ==
+eyJoaXN0b3J5IjpbMTI0Nzc0NzM5NywtMTA2OTk0NTIyMywtMT
+U0OTEzMTMyMiwtMTUwOTc4NzUzNCwtODQ4NjI2OTI5XX0=
 -->
