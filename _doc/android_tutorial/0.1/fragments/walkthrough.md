@@ -7,7 +7,6 @@ sections:
   - 012 Communicate between the fragments and the activities solution
   - 013 Manipulate fragments solution
   - 014 Send the data to fragments solution
-  - [Test](#test)
 ---
 <details>
 
@@ -119,7 +118,7 @@ supportFragmentManager.beginTransaction()         		// 2
 ### Test
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDkwMzk2OSwxNjcxOTc2NjUxLDE5OT
+eyJoaXN0b3J5IjpbMTk5NjQ4NTA5MCwxNjcxOTc2NjUxLDE5OT
 M3MTAyMDcsNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC0yMDU1Mjkx
 MDM3LC0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0xNTA5Nzg3NT
 M0LC04NDg2MjY5MjldfQ==
