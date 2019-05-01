@@ -16,7 +16,8 @@ sections:
 </a>
 </summary>
 
-### 0.0 Empty project ([**clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/b7aedaebebab286bda00cb2d55df0be104125992))
+### 0.0 Empty project solution
+[**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/b7aedaebebab286bda00cb2d55df0be104125992)
 
 This is the starting step for our application.
 We simply have a _MainActivity_ class that extends _AppCompatActivity_ (I'm using this for compatibility reasons on older phones, use whatever you need for your project).
@@ -36,7 +37,8 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 That's it. 
 
-### 0.1.1 Launch a fragment ([**clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/a3117b27ba05fe1d359fcf3a7251f24a66294381))
+### 0.1.1 Launch a fragment solution
+ [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/a3117b27ba05fe1d359fcf3a7251f24a66294381)
 
 We could directly implement our layout in the _MainActivity_. The advantage of using a _Fragment_ instead of an _Activity_ is that we can reuse fragments in different activities if needed, or display multiple fragments on screen depending on the display size, orientation, etc.
 
@@ -60,7 +62,8 @@ supportFragmentManager.beginTransaction()         		// 2
    .commit()		                        		// 4
 ```
 
-### 0.1.2 Communicate between the fragments and the activities ([**clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/15d54a84d8d1a1c4d93657e42ef0800127a43c23))
+### 0.1.2 Communicate between the fragments and the activities 
+[**clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/15d54a84d8d1a1c4d93657e42ef0800127a43c23))
  1. We first take care of the UI changes. We add a floating button to the [_fragment_dog_list.xml_]() layout, as well as a drawable **+** icon.
  2. To communicate between the fragment and the activity, we need to add:
 	1. A listener [**interface**](https://kotlinlang.org/docs/reference/interfaces.html#interfaces) in the fragment. This is an **abstract** class, and its role is only to force the activity that implements the fragment to implement its members/methods. Add the following to the _DogListFragment_:
@@ -111,7 +114,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5OTAwNDkyLDE2NzE5NzY2NTEsMTk5Mz
+eyJoaXN0b3J5IjpbODc3MjU5ODI2LDE2NzE5NzY2NTEsMTk5Mz
 cxMDIwNyw1NjYzNTc2NDUsLTE0MzQxMDAzNTUsLTIwNTUyOTEw
 MzcsLTEwNjk5NDUyMjMsLTE1NDkxMzEzMjIsLTE1MDk3ODc1Mz
 QsLTg0ODYyNjkyOV19
