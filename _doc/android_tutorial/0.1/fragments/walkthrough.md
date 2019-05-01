@@ -77,9 +77,9 @@ supportFragmentManager.beginTransaction()         		// 2
 		}
 		```  
 	
- 3. We need to attach the actual callback to the button's onClickListener. A _View_ element in Android has a `setListener`  
+ 3. We need to attach the actual callback to the button's onClickListener. 
 	1. Attach the reference of the activity that implements the listener to the fragment.  
-	2. Add the activity's callback to the button through [View.setOnClickListener]
+	2. Add the activity's callback to the button through the [`View.OnClickListener`](https://developer.android.com/reference/android/view/View.OnClickListener) method
 
 ### 0.1.3 - Manipulate fragments ([**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/6f7cbf3039c3a0a180f9bce948f4b9ba03f02cb2))
 
@@ -87,7 +87,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTY0MTAyMSwtMTQzNDEwMDM1NSwtMj
+eyJoaXN0b3J5IjpbLTk2MTY1MTMzMywtMTQzNDEwMDM1NSwtMj
 A1NTI5MTAzNywtMTA2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUw
 OTc4NzUzNCwtODQ4NjI2OTI5XX0=
 -->
