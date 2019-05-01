@@ -10,8 +10,7 @@ date: 2019-04-20
 </a>
 </summary>
 
-### 0.0 - Empty project
-[**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/b7aedaebebab286bda00cb2d55df0be104125992)
+### 0.0 - Empty project ([**clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/b7aedaebebab286bda00cb2d55df0be104125992))
 
 This is the starting step for our application.
 We simply have a _MainActivity_ class that extends _AppCompatActivity_ (I'm using this for compatibility reasons on older phones, use whatever you need for your project).
@@ -31,8 +30,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 That's it. 
 
-### 0.1.1 - Launch a fragment 
-[**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/a3117b27ba05fe1d359fcf3a7251f24a66294381)
+### 0.1.1 - Launch a fragment ([**clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/a3117b27ba05fe1d359fcf3a7251f24a66294381))
 
 We could directly implement our layout in the _MainActivity_. The advantage of using a _Fragment_ instead of an _Activity_ is that we can reuse fragments in different activities if needed, or display multiple fragments on screen depending on the display size, orientation, etc.
 
@@ -80,6 +78,6 @@ supportFragmentManager.beginTransaction()         		// 2
 
 <details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQxNDI4MDMsLTEwNjk5NDUyMjMsLT
-E1NDkxMzEzMjIsLTE1MDk3ODc1MzQsLTg0ODYyNjkyOV19
+eyJoaXN0b3J5IjpbLTc1MzIxMDQ0NywtMTA2OTk0NTIyMywtMT
+U0OTEzMTMyMiwtMTUwOTc4NzUzNCwtODQ4NjI2OTI5XX0=
 -->
