@@ -27,3 +27,6 @@ The `Dog` class will need to have the following properties:
  - `subBreed`: an **optional** sub-breed for the dog
 
 </div>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTY4ODA0ODg5XX0=
+-->
