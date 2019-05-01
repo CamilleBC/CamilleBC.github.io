@@ -2,7 +2,7 @@
 title: Walkthrough
 date: 2019-04-20
 sections:
-  - 0.0 Empty Project (clone on Github)
+  - 00 Empty Project (clone on Github)
   - 0.1.1 Launch a fragment
   - 0.1.2 Communicate between the fragments and the activities
   - 0.1.3 Manipulate fragments
@@ -111,7 +111,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTAzNDUzNDMsNTY2MzU3NjQ1LC0xND
-M0MTAwMzU1LC0yMDU1MjkxMDM3LC0xMDY5OTQ1MjIzLC0xNTQ5
-MTMxMzIyLC0xNTA5Nzg3NTM0LC04NDg2MjY5MjldfQ==
+eyJoaXN0b3J5IjpbMTk5MzcxMDIwNyw1NjYzNTc2NDUsLTE0Mz
+QxMDAzNTUsLTIwNTUyOTEwMzcsLTEwNjk5NDUyMjMsLTE1NDkx
+MzEzMjIsLTE1MDk3ODc1MzQsLTg0ODYyNjkyOV19
 -->
