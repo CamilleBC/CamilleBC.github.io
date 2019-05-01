@@ -46,25 +46,26 @@ We could directly implement our layout in the _MainActivity_. The advantage of u
 	   4. Finally, we commit the transaction. It will be scheduled on the main thread to be done the next time that the thread is ready.
 
 ```kotlin
-val dogListFragment = DogListFragment()	            	// 1
-supportFragmentManager.beginTransaction()         	// 2
+val dogListFragment = DogListFragment()	            		// 1
+supportFragmentManager.beginTransaction()         		// 2
    .add(R.id.constraintLayout_main_fragment, dogListFragment)	// 3
-   .commit()		                        	// 4
+   .commit()		                        		// 4
 ```
 
 ### Step 2. Communicate between the *DogListFragment* and the *MainActivity*
 
  1. We first take care of the UI changes. We add a floating button to the [_fragment_dog_list.xml_]() layout, as well as a drawable **+** icon.
  2. To communicate between the fragment and the activity, we need to add:
-a- A listener interface in the fragment  
-b- The implementation of the interface: a callback in the activity  
+	1. A listener interface in the fragment. This is an abstract function, and its role is only t
+	2. The implementation of the interface: a callback in the activity  
 
-2- We need to attach the actual callback to the button's onClickListener:  
-a- Attach the reference of the activity that implements the listener to the fragment  
-b- Add the activity's callback to the button through [View.setOnClickListener]
+ 3. We need to attach the actual callback to the button's onClickListener:  
+	1. Attach the reference of the activity that implements the listener to the fragment  
+	2. Add the activity's callback to the button through [View.setOnClickListener]
+
 ### Step 3. Add a *DogEditorFragment* and launch it from the *DogListFragment*
 
 ### Step 4. Send the data from *DogEditorFragment*  to *DogListFragment*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjk1NDkyOCwtODQ4NjI2OTI5XX0=
+eyJoaXN0b3J5IjpbMTMzMDYxNDcyLC04NDg2MjY5MjldfQ==
 -->
