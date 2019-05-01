@@ -79,7 +79,24 @@ supportFragmentManager.beginTransaction()         		// 2
 	
  3. We need to attach the actual callback to the button's onClickListener. 
 	1. At this stage, all that we do is attach, in the _DogListFragment_, a reference to the activity that implements the listener. We attach the reference in [Fragment.onAttach](https://developer.android.com/reference/android/support/v4/app/Fragment.html#onattach_1) where we check if the context implements the listener. We cannot yet attach the actual callback, as the parent activity can be referenced, but it may not yet be fully functional. Our callback here relies on the `Toast` function, which requires the activity to be fully functional.
-	2. In the second stage, we add the actual activity's callback's implementation to the button through the [`View.OnClickListener`](https://developer.android.com/reference/android/view/View.OnClickListener) method. This method will call the implemented callback on a user's click on the _View_ element. We add the callback in [Fragment.onActivityCreated](https://developer.android.com/reference/android/support/v4/app/Fragment.html#onactivitycreated), where the parent activity is sure to have been created. We use the reference to the parent's list
+		```kotlin
+		override fun onAttach(context: Context) {  
+		    super.onAttach(context)  
+		    // Attach the parent's activity listener to the fragment  
+		  if (context is OnAddClickListener)  
+		        onAddClickListener = context  
+		    else  
+		 throw RuntimeException("$context must implement OnAddClickListener")  
+		}
+		```
+	3. In the second stage, we add the actual activity's callback's implementation to the button through the [`View.OnClickListener`](https://developer.android.com/reference/android/view/View.OnClickListener) method. This method will call the implemented callback on a user's click on the _View_ element. We add the callback in [Fragment.onActivityCreated](https://developer.android.com/reference/android/support/v4/app/Fragment.html#onactivitycreated), where the parent activity is sure to have been created. We use the reference to the parent's listener implementation, and set our  [`View.OnClickListener`](https://developer.android.com/reference/android/view/View.OnClickListener) method to call the callback method:
+		```kotlin
+		override fun onActivityCreated(savedInstanceState: Bundle?) {  
+		    super.onActivityCreated(savedInstanceState)  
+		    activity?.let {  
+		  button_dogList_add.setOnClickListener{ onAddClickListener?.onDogListAddClick() }  
+		 }}
+		```
 
 [Fragment.onCreateView](https://developer.android.com/reference/android/support/v4/app/Fragment.html#oncreateview).
 
@@ -89,7 +106,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzM4NTQ3NDcsLTE0MzQxMDAzNTUsLT
-IwNTUyOTEwMzcsLTEwNjk5NDUyMjMsLTE1NDkxMzEzMjIsLTE1
-MDk3ODc1MzQsLTg0ODYyNjkyOV19
+eyJoaXN0b3J5IjpbMTg4MDc3OTc0OCwtMTQzNDEwMDM1NSwtMj
+A1NTI5MTAzNywtMTA2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUw
+OTc4NzUzNCwtODQ4NjI2OTI5XX0=
 -->
