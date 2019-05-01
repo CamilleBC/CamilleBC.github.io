@@ -63,7 +63,13 @@ supportFragmentManager.beginTransaction()         		// 2
 		    fun onDogListAddClick()  
 	}
 	```
-	2. The implementation of the interface: a callback in the activity. First
+	2. The implementation of the interface: a callback in the activity. We nedd to declare that the activity will implement the _DogListFragment_ listener.
+		```kotlin
+			class MainActivity : AppCompatActivity(),  
+  // The parent activity must extend the fragment's listeners  
+  DogListFragment.OnAddClickListener {
+	```
+	
 	```kotlin
 	override fun onDogListAddClick() {  
 	    val dogEditorFragment = DogEditorFragment()  
@@ -83,7 +89,7 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2NDgyMzUxLC0yMDU1MjkxMDM3LC0xMD
-Y5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0xNTA5Nzg3NTM0LC04NDg2
-MjY5MjldfQ==
+eyJoaXN0b3J5IjpbMTE5NzM5Mzg2MCwtMjA1NTI5MTAzNywtMT
+A2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUwOTc4NzUzNCwtODQ4
+NjI2OTI5XX0=
 -->
