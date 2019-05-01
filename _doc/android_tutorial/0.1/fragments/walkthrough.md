@@ -6,11 +6,11 @@ date: 2019-04-20
 
 <summary >
 <a class=".btn .btn-primary">
-  # *&nbsp;*{: .fa .fa-question-circle} Show walkthrough
+  *&nbsp;*{: .fa .fa-question-circle} Show walkthrough
 </a>
 </summary>
 
-### Step 0. Initial state
+### 0.0- Initial state
 
 This is the starting step for our application.
 We simply have a _MainActivity_ class that extends _AppCompatActivity_ (I'm using this for compatibility reasons on older phones, use whatever you need for your project).
@@ -79,6 +79,6 @@ supportFragmentManager.beginTransaction()         		// 2
 
 <details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODA3MzcxNCwtMTU0OTEzMTMyMiwtMT
-UwOTc4NzUzNCwtODQ4NjI2OTI5XX0=
+eyJoaXN0b3J5IjpbNTgyOTg2MDA0LC0xNTQ5MTMxMzIyLC0xNT
+A5Nzg3NTM0LC04NDg2MjY5MjldfQ==
 -->
