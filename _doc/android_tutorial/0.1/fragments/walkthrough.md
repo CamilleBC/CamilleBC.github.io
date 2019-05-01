@@ -2,8 +2,8 @@
 title: Walkthrough
 date: 2019-04-20
 sections:
-  - 00 Empty Project solution
-  - 011 Launch a fragment solution
+  - [0.0 Empty Project](#00-empty-project-solution)
+  - [0.1011 Launch a fragment solution
   - 012 Communicate between the fragments and the activities solution
   - 013 Manipulate fragments solution
   - 014 Send the data to fragments solution
@@ -116,8 +116,8 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzQyOSwxNjcxOTc2NjUxLDE5OTM3MT
-AyMDcsNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC0yMDU1MjkxMDM3
-LC0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0xNTA5Nzg3NTM0LC
-04NDg2MjY5MjldfQ==
+eyJoaXN0b3J5IjpbLTEwNjg5MzMwODIsMTY3MTk3NjY1MSwxOT
+kzNzEwMjA3LDU2NjM1NzY0NSwtMTQzNDEwMDM1NSwtMjA1NTI5
+MTAzNywtMTA2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUwOTc4Nz
+UzNCwtODQ4NjI2OTI5XX0=
 -->
