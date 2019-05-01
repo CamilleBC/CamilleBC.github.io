@@ -13,7 +13,7 @@ navigation:
 ---
 
 <div class="jumbotron text-left">
-## Objectives
+## Objectives:
 
 You will need to create an app that can display and manage a list of dogs.
 
@@ -26,5 +26,5 @@ The _Dog_ class will need to have the following properties:
 
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTU4Mzk3Ml19
+eyJoaXN0b3J5IjpbMTMwODAwNzUyMl19
 -->
