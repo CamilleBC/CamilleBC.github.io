@@ -142,7 +142,7 @@ If a valid *Dog* is provided, return the user to the *DogListFragment* and updat
   [**Clone the solution**]()
 </details>
 
-[0.1.1 - Launch a fragment](#0.1.1l-launch-a-fragment)
+[0.1.1 - Launch a fragment](#0.1.1-launch-a-fragment)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODIwNDkwN119
+eyJoaXN0b3J5IjpbMzI3NDU0OTg3XX0=
 -->
