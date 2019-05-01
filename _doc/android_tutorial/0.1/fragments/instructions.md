@@ -5,7 +5,8 @@ sections:
   - Prerequisites
   - 0.1.1 - Launch a fragment
   - 0.1.2 - Communicate between the fragments and the activities
-  - 
+  - 0.1.3 - Manipulate fragments
+  - 0.1.4 - Send the data to fragments
 ---
 
 You will implements two fragments: one called *DogListFragment*, the other *DogEditorFragment*.
@@ -75,7 +76,7 @@ You will need to learn about Kotlin's [interfaces](https://kotlinlang.org/docs/r
 
 </details>
 
-### 0.1.3 - Launch it from the *DogListFragment*
+### 0.1.3 - Manipulate fragments
 On the *FloatingActionButton* click, replace the existing *DogListFragment* by a new fragment called *DogEditorFragment*.
 
 The *DogListFragment* should provide:
@@ -111,7 +112,7 @@ The *DogListFragment* should provide:
 
 </details>
 
-### 0.1.4 - Send the data from *DogEditorFragment*  to *DogListFragment*
+### 0.1.4 - Send the data to fragments
 Do not use *ViewModel* and *LiveData* at first. Try to implement a way to pass data through the callbacks without it. 
 If a **mandatory** field is left empty (*name* or *breed*), do **not** add it to the data. Stay on the *DogListEditor* and warn the user.
 If a valid *Dog* is provided, return the user to the *DogListFragment* and update the displayed list.
@@ -141,5 +142,5 @@ If a valid *Dog* is provided, return the user to the *DogListFragment* and updat
   [**Clone the solution**]()
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU1Nzk4ODFdfQ==
+eyJoaXN0b3J5IjpbLTUyNjAxMTIxN119
 -->
