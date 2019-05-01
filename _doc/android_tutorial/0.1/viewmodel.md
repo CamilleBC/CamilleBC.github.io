@@ -1,5 +1,5 @@
 ---
-title: ViewModel
+title: 0.2 - ViewModel
 excerpt: Learn how to use ViewModel and LiveData to manage your lifecycle dependent data
 icon:
   type: fa
@@ -9,5 +9,5 @@ color: blue
 
 # *&nbsp;*{: .fa .fa-tools} Work in progress *&nbsp;*{: .fa .fa-tools}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDIyNDJdfQ==
+eyJoaXN0b3J5IjpbLTEzMjc4MTQ1MjVdfQ==
 -->
