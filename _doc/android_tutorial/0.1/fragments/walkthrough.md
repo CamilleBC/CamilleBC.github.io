@@ -3,7 +3,7 @@ title: Walkthrough
 date: 2019-04-20
 sections:
   - 00 Solution
-  - 011 Solution
+  - 011 - Solution
   - 012 - Solution
   - 013 Manipulate fragments solution
   - 014 Send the data to fragments solution
@@ -18,7 +18,7 @@ sections:
 </summary>
 
 ### 0.0 Empty project solution
-{: #0.0-solution}
+{: #00-solution}
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/b7aedaebebab286bda00cb2d55df0be104125992)
 
 This is the starting step for our application.
@@ -66,7 +66,7 @@ supportFragmentManager.beginTransaction()         		// 2
 ```
 
 ### 0.1.2 Communicate between the fragments and the activities solution
-{: #012---solution}
+{: #012-solution}
 [**Clone on Github**](https://github.com/CamilleBC/android-kotlin-basics/tree/15d54a84d8d1a1c4d93657e42ef0800127a43c23)
  1. We first take care of the UI changes. We add a floating button to the [_fragment_dog_list.xml_]() layout, as well as a drawable **+** icon.
  2. To communicate between the fragment and the activity, we need to add:
@@ -120,9 +120,9 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzA4MjU4OCwyMTM3MTU5OTQxLDEyNT
-gyMjI3NTksLTY1MjAzNzEwNCwxNjcxOTc2NjUxLDE5OTM3MTAy
-MDcsNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC0yMDU1MjkxMDM3LC
-0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0xNTA5Nzg3NTM0LC04
-NDg2MjY5MjldfQ==
+eyJoaXN0b3J5IjpbNTg0MTc2NDg1LDIwNTMwODI1ODgsMjEzNz
+E1OTk0MSwxMjU4MjIyNzU5LC02NTIwMzcxMDQsMTY3MTk3NjY1
+MSwxOTkzNzEwMjA3LDU2NjM1NzY0NSwtMTQzNDEwMDM1NSwtMj
+A1NTI5MTAzNywtMTA2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUw
+OTc4NzUzNCwtODQ4NjI2OTI5XX0=
 -->
