@@ -3,7 +3,7 @@ title: Walkthrough
 date: 2019-04-20
 sections:
   - 00-Solution
-  - 011 Solution
+  - 011
   - 012 Solution
   - 013 Solution
   - 014 Solution
@@ -124,9 +124,9 @@ supportFragmentManager.beginTransaction()         		// 2
 
 </details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0NzY0NTcsMjA1MzA4MjU4OCwyMTM3MT
-U5OTQxLDEyNTgyMjI3NTksLTY1MjAzNzEwNCwxNjcxOTc2NjUx
-LDE5OTM3MTAyMDcsNTY2MzU3NjQ1LC0xNDM0MTAwMzU1LC0yMD
-U1MjkxMDM3LC0xMDY5OTQ1MjIzLC0xNTQ5MTMxMzIyLC0xNTA5
-Nzg3NTM0LC04NDg2MjY5MjldfQ==
+eyJoaXN0b3J5IjpbMzMyNjk5ODU0LDIwNTMwODI1ODgsMjEzNz
+E1OTk0MSwxMjU4MjIyNzU5LC02NTIwMzcxMDQsMTY3MTk3NjY1
+MSwxOTkzNzEwMjA3LDU2NjM1NzY0NSwtMTQzNDEwMDM1NSwtMj
+A1NTI5MTAzNywtMTA2OTk0NTIyMywtMTU0OTEzMTMyMiwtMTUw
+OTc4NzUzNCwtODQ4NjI2OTI5XX0=
 -->
